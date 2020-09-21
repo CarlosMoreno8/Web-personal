@@ -1,32 +1,17 @@
-.puertaTori{
-    
-}
-
-.fondo{
-    height: 100%;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
 
 .home{
     width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
+    position: absolute;
     display: flex;
+    justify-content: space-between;
     flex-direction: row;
-    background-color: black;
 }
 
 .nombre{
     width: 20%;
     align-self: center;
-    background-color: red;
     text-align: center;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 2em;
     font-weight: bold;
 }
@@ -34,10 +19,10 @@
 .titulo{
     width: 50%;
     text-align: center;
-    background-color: royalblue;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 5em;
+    font-size: 3em;
     font-weight: bold;
+    transition: opacity 1s;
     
 }
 
@@ -46,7 +31,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -56,7 +41,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
 }
@@ -66,7 +51,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: cursive;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.puertaTori{
+    width: 100%; 
 }
