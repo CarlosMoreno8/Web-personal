@@ -1,17 +1,72 @@
+.puertaTori{
+    
+}
+
 .fondo{
     height: 100%;
     width: 100%;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
 }
 
-.puertaTori{
-    width: 98%;
-    
-}
 
 .home{
     width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
     background-color: black;
+}
+
+.nombre{
+    width: 20%;
+    align-self: center;
+    background-color: red;
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.titulo{
+    width: 50%;
+    text-align: center;
+    background-color: royalblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5em;
+    font-weight: bold;
+    
+}
+
+.menuHome{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menuAboutMe{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.menuContact{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 1.5em;
+    font-weight: bold;
 }
