@@ -41,3 +41,98 @@
     font-size: 1.5em;
     font-weight: bold;
 }
+
+.descripcion{
+    width: 100%;
+    height: 35em;
+    display: flex;
+    flex-direction: row;
+}
+.foto{
+    height: 50%;
+    align-self: center;
+}
+.espacioFoto{
+    width: 10em;
+}
+
+.texto{
+    align-self: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.skills{
+    width: 100%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.barras{
+    height: 15em;
+    display: flex;
+    flex-direction: column;
+}
+
+.html5{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.css3{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.js{
+    display: flex;
+    flex-direction: row;
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}
+
+.barraHtml5{
+    width: 52.5%;
+    height: 50%;
+    align-self: flex-end;
+    background-color: black;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.rellenoBarraHtml5{
+    width: 40%;
+    height: 50%;
+    align-self: flex-end;
+    background-color: rgb(133, 89, 89);
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
+
+.barraCss3{
+    width: 40%;
+    height: 50%;
+    align-self: flex-end;
+    background-color: black;
+    border-top-left-radius: 2em;
+    border-bottom-left-radius: 2em;
+}
+
+.rellenoBarraCss3{
+    width: 54%;
+    height: 50%;
+    align-self: flex-end;
+    background-color: rgb(133, 89, 89);
+    border-top-right-radius: 2em;
+    border-bottom-right-radius: 2em;
+}
